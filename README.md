@@ -1,5 +1,7 @@
 # EPL_project
-Use R programming to create a function that pulls English Premier League data sets from the web (https://www.football-data.co.uk/englandm.php). Then manipulate the data to return a data frame with specific stats about the match outcomes. 
+Use R programming to create a function with the inputs of date and season that pulls English Premier League data sets from the web (https://www.football-data.co.uk/englandm.php). Then manipulate the data to return a data frame with stats about the match outcomes for the date and season specified. The parameters of the function (in order) are date, in the mm/dd/yyyy format, and
+season specified by yyyy/yy, such as 2017/18.
+
 
 Along with the team name, the data frame returned by the function contains the following columns where the column name is specified in parentheses:
 
