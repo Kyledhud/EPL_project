@@ -1,8 +1,9 @@
+# load necessary libraries
 library(tidyverse)
 library(lubridate)
 library(stringr)
 
-# EPL Final Project Function -----------------------------------------------------
+# Begin EPL Function -----------------------------------------------------
 
 EPL_Standings <- function(date, season) {
   first2 <- substr(season, 3, 4)
@@ -148,4 +149,4 @@ EPL_Standings <- function(date, season) {
   return(EPL_Final_Results)
 }
 
-EPL_Standings("01/01/2099", "2017/18")
+EPL_Standings("01/01/2018", "2017/18")
